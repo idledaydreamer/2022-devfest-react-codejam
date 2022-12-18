@@ -22,6 +22,8 @@ const MainPage: ActivityComponentType = () => {
     console.log(products);
   };
 
+
+
   React.useEffect(() => {
     loopProducts();
   }, []);

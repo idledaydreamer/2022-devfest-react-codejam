@@ -34,6 +34,7 @@ const DetailPage: React.FC<DetailParams> = ({ params: { id } }) => {
   }, []);
 
   return (
+
     <AppScreen
       appBar={{
         backButton: {
